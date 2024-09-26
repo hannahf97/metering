@@ -15,7 +15,9 @@ public class matchPage extends Fragment {
     @Override
     public View onCreateView(@Nullable LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_match_page, container, false);
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_match_page, container, false);
+
+        return view;
     }
 }
